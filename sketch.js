@@ -10,9 +10,11 @@ var cmb = 1
 var i =255
 var lyf = 5
 function preload
-{   cv = loadImage('coronavirus.png')
-  gc = loadSound('goco.mp3')
+{   
+    gc = loadSound('goco.mp3')
   cg = loadSound('cogo.mp3')
+  cv = loadImage('coronavirus.png')
+
 }
 function setup() {
   createCanvas(800, 800);
