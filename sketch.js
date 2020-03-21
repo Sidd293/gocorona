@@ -9,11 +9,7 @@ var sc = 0
 var cmb = 1
 var i =255
 var lyf = 5
-function preload
-{   
-
-
-}
+ 
 function setup() {
   createCanvas(800, 800);
 
