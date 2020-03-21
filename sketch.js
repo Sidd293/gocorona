@@ -12,15 +12,16 @@ var lyf = 5
 function preload
 {   
 
+
+}
+function setup() {
+  createCanvas(800, 800);
+
 arw = loadImage('arw.png')
     gc = loadSound('goco.mp3')
   cg = loadSound('cogo.mp3')
   cv = loadImage('coronavirus.png')
    hrt = loadImage('hrtb.png')
-
-}
-function setup() {
-  createCanvas(800, 800);
 
 }
 
