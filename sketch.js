@@ -33,7 +33,7 @@ function draw() {
   scale(2)
   background(255);
 for (var l = 0;l<lyf;l++)
- image(hrt,l*50,20,20,20)
+ image(hrt,l*40+100,60,20,20)
   text("score is - "+sc,150,30)
   
   var tht = map(mouseY,0,360,0,450)
